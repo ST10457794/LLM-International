@@ -1,12 +1,60 @@
-# React + Vite
+# LLM International
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LLM International is a modern web application focused on commodities and logistics. Built with **React**, **Vite**, and **Tailwind CSS**, the site showcases services, a dynamic team, portfolio highlights, and insights tailored for the logistics sector.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** — Frontend framework
+- **Vite** — Fast development/build tool
+- **Tailwind CSS** — Utility-first styling
+- **Framer Motion** — Animations
+- **React Router** — Client-side routing
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── About/
+│   │   ├── Contact/
+│   │   ├── CookieConsent/
+│   │   ├── Footer/
+│   │   ├── Header/
+│   │   ├── Hero/
+│   │   ├── Insights/
+│   │   ├── Portfolio/
+│   │   ├── Services/
+│   │   └── Team/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+
+📦 Getting Started
+Clone the repo:
+
+bash
+Copy
+Edit
+git clone git@github.com:ST10457794/llm-international.git
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Run the app:
+
+bash
+Copy
+Edit
+npm run dev
+🔗 Live Demo
+Add your deployed link here once available.
+
+📫 Contact
+For inquiries or collaboration, email: liteboho11@gmail.com
+
+
+
