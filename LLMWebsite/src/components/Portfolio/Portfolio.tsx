@@ -30,35 +30,32 @@ const Portfolio: React.FC = () => {
 
   const timelineItems = [
     {
-      year: "2018",
-      title: "Company Founded",
-      description: "LLM International established with a focus on chrome trading in the Eastern Cape region."
-    },
-    {
-      year: "2019",
-      title: "First Major Contract",
-      description: "Secured exclusive mandate to represent a mid-tier gold mine, resulting in successful international investment."
-    },
-    {
-      year: "2021",
-      title: "Expansion to Coal Trading",
-      description: "Added coal trading services and established logistics partnerships to ensure reliable delivery."
-    },
-    {
       year: "2022",
-      title: "AI Price Intelligence Platform",
-      description: "Launched proprietary commodity price forecasting system, improving trading margins by 15%."
+      title: "Company Founded",
+      description: "LLM International established with a vision to become a leading chrome trading company in the North West & Limpopo region."
     },
     {
       year: "2023",
-      title: "International Office Expansion",
-      description: "Opened satellite offices in Dubai and Singapore to better serve global clients and investors."
+      title: "Strategic Planning & Team Formation",
+      description: "Built a core team of industry experts and developed strategic partnerships to prepare for market entry."
+    },
+    {
+      year: "2024",
+      title: "Infrastructure & Compliance Setup",
+      description: "Secured necessary licenses, developed supply chain and logistics infrastructure & network, and initiated key stakeholder engagements."
+    },
+    {
+      year: "2025",
+      title: "Official Launch & Trading Operations",
+      description: "LLM International commenced trading operations, executing its first chrome deals and entering the southern African minerals market."
     }
   ];
-
+  
   return (
     <section id="portfolio" className="py-20 bg-white">
       <div className="container mx-auto px-4">
+
+        {/*
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl font-bold mb-4">Our <span className="text-gold">Portfolio</span></h2>
           <p className="text-lg text-charcoal-light max-w-2xl mx-auto">
@@ -66,7 +63,9 @@ const Portfolio: React.FC = () => {
           </p>
           <div className="w-24 h-1 bg-gold mx-auto mt-4"></div>
         </div>
-        
+        */}
+
+        {/*
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {caseStudies.map((study, index) => (
             <CaseStudy 
@@ -80,7 +79,8 @@ const Portfolio: React.FC = () => {
             />
           ))}
         </div>
-        
+        */}
+
         {/* Timeline */}
         <div className="mt-20">
           <h3 className="font-serif text-2xl font-bold mb-8 text-center">Our Growth Timeline</h3>

@@ -10,7 +10,7 @@ export const teamMembers = [
   {
     name: "Tebalo Lephoto",
     position: "Chief Executive Officer",
-    bio: "With years of experience in African mining and commodities, Tebalo brings unparalleled expertise in resource development and international trade relations.",
+    bio: "Tebalo Lephoto is a South African entrepreneur and investor focused on reshaping Africa's future through venture capital, mining, real estate, and creative industries. From cannabis lounges to tech platforms, his ventures blend innovation, culture, and community impact—positioning Africa as a global force.",
     image: "",
   },
   {
