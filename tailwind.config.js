@@ -30,7 +30,8 @@ export default {
           700: '#242E35',
           800: '#1B2328',
           900: '#12171B',
-        }
+        },
+        white: '#FFFFFF',  // Adding explicit white color
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
