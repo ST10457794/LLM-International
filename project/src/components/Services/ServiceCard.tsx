@@ -24,7 +24,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon, del
         <p className="text-charcoal-light mb-4">
           {description}
         </p>
-        <a href="#" className="text-gold hover:text-gold-dark font-medium flex items-center">
+        <a href="#contact" className="text-gold hover:text-gold-dark font-medium flex items-center">
           Learn More
           <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>

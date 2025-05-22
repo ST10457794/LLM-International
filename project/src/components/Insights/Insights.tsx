@@ -23,6 +23,8 @@ const Insights: React.FC = () => {
               date={article.date}
               description={article.description}
               index={index}
+              news={article.news} 
+              image={article.image}
             />
           ))}
         </div>

@@ -32,9 +32,10 @@ const Contact: React.FC = () => {
                     <rect x="175" y="175" width="50" height="50" fill="#a5a5a5"/>
                     <circle cx="200" cy="80" r="20" fill="#C5A028" opacity="0.8"/>
                   </svg>
+                  
                   <div className="absolute inset-0 flex items-center justify-center">
                     <p className="bg-white bg-opacity-90 py-2 px-4 rounded text-charcoal font-medium">
-                      Interactive Map (Sample)
+                     Midrand South Africa
                     </p>
                   </div>
                 </div>
@@ -50,7 +51,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-charcoal">Address</h4>
-                    <p className="text-charcoal-light">123 Resource Avenue, Sandton<br />Johannesburg, South Africa</p>
+                    <p className="text-charcoal-light">56 Combretum street<br />Midrand Johannesburg, South Africa</p>
                   </div>
                 </div>
                 
@@ -62,8 +63,8 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-charcoal">Phone</h4>
-                    <p className="text-charcoal-light">+27 10 123 4567</p>
-                    <p className="text-charcoal-light">+27 82 987 6543 (After Hours)</p>
+                    <p className="text-charcoal-light">+27 79 041 4482</p>
+                    <p className="text-charcoal-light">+27 60 894 7352</p>
                   </div>
                 </div>
                 

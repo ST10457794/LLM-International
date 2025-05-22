@@ -54,12 +54,12 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-medium mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-gold transition duration-300">Commodity Trading</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-gold transition duration-300">Brokerage Services</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-gold transition duration-300">Joint Ventures</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-gold transition duration-300">Mine Acquisition</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-gold transition duration-300">Logistics & Shipping</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-gold transition duration-300">Market Intelligence</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-gold transition duration-300">Commodity Trading</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-gold transition duration-300">Brokerage Services</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-gold transition duration-300">Joint Ventures</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-gold transition duration-300">Mine Acquisition</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-gold transition duration-300">Logistics & Shipping</a></li>
+              <li><a href="#services" className="text-gray-300 hover:text-gold transition duration-300">Market Intelligence</a></li>
             </ul>
           </div>
           
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
             &copy; {year} LLM International. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm mt-2 md:mt-0">
-            Designed with excellence | <a href="#" className="text-gold hover:underline">Sitemap</a>
+            Designed with excellence | <a href="https://www.pmulesotho.com/" className="text-gold hover:underline">PICKMEUP DEVELOPERS</a>
           </p>
         </div>
       </div>
