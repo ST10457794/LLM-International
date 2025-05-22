@@ -44,34 +44,26 @@ const Hero: React.FC = () => {
                   Explore Our Services
                 </a>
                 <a href="#contact" className="border-2 border-charcoal hover:bg-charcoal hover:text-white text-charcoal font-medium py-3 px-6 rounded-md transition duration-300 text-center">
-                  Contact Our Team
+                Partner With Us
                 </a>
               </div>
             </div>
           </div>
           <div className="md:w-1/2 slide-element">
             <div className="relative">
-              <svg className="w-full h-auto" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#D4AF37" stopOpacity="0.8"/>
-                    <stop offset="100%" stopColor="#AA8C2C" stopOpacity="0.9"/>
-                  </linearGradient>
-                </defs>
-                <rect x="50" y="50" width="500" height="300" fill="#f5f5f5" rx="10"/>
-                <path d="M50,150 L200,50 L350,150 L500,100 L550,150 L550,350 L50,350 Z" fill="url(#goldGradient)"/>
-                <circle cx="150" cy="100" r="30" fill="#333333" opacity="0.8"/>
-                <circle cx="400" cy="120" r="40" fill="#333333" opacity="0.7"/>
-                <path d="M100,200 L200,180 L300,220 L400,190 L500,210 L500,350 L100,350 Z" fill="#333333" opacity="0.6"/>
-                <path d="M50,250 L150,230 L250,260 L350,240 L450,270 L550,250 L550,350 L50,350 Z" fill="#D4AF37" opacity="0.5"/>
-              </svg>
+            <img 
+                src="https://assets.weforum.org/article/image/large_FZHTGjXwUDs8HQNEk1tOh4Dfe039k54ejVzogsuRq5A.jpg" 
+                alt="Mining Operation" 
+                className="w-full h-auto object-cover rounded-lg"
+              />
+
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="bg-white bg-opacity-80 p-6 rounded-lg shadow-lg">
+                <div className="bg-white bg-opacity-90 p-12 rounded-lg shadow-lg">
                   <div className="flex items-center space-x-4">
                     <div className="w-3 h-12 bg-gold"></div>
                     <div>
                       <p className="font-serif text-xl font-medium">Continental Presence</p>
-                      <p className="text-sm text-charcoal-light">Operating across the African continent</p>
+                      <p className="text-sm text-charcoal-light">From African mines to global supply chains—trusted where it matters.</p>
                     </div>
                   </div>
                 </div>

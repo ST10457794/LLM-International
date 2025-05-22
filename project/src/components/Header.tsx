@@ -36,7 +36,7 @@ const Header: React.FC = () => {
           </div>
           <div>
             <h1 className="text-2xl font-serif font-bold">LLM <span className="text-gold">International</span></h1>
-            <p className="text-xs text-charcoal-light">Unlocking Africa's Resource Potential</p>
+            <p className="text-xs text-charcoal-light">Empowering Africa’s Mineral Future</p>
           </div>
         </div>
         
