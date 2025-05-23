@@ -1,6 +1,7 @@
 import LitebohoPhoto from '../../assets/tebo.jpg';
 import BerengPhoto from '../../assets/bereng.jpg';
 import MonwabisiPhoto from '../../assets/monwabisi.jpg';
+import TebaloPhoto from '../../assets/tebalo.jpg';
 //import {linkedin} from 'lucide-react';  
 
 
@@ -11,7 +12,7 @@ export const teamMembers = [
     name: "Tebalo Lephoto",
     position: "Chief Executive Officer",
     bio: "Tebalo Lephoto is a South African entrepreneur and investor focused on reshaping Africa's future through venture capital, mining, real estate, and creative industries. From cannabis lounges to tech platforms, his ventures blend innovation, culture, and community impact—positioning Africa as a global force.",
-    image: "",
+    image: TebaloPhoto,
   },
   {
     name: "Liteboho Lethole",
